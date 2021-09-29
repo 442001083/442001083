@@ -1,28 +1,27 @@
-import java.util.scannr;
-// 442001084
-// abdulrahman
-clss main {
-  public static void main (string [] args ) {
-  scanner myscanner = new Scanner(System.in);
-    int var1=99,9
-    int var2=93,3
-    system.out.println("addition");
-  //@ use print
-		system.out.print(var1 + var2);   
-	system.outprint("subtraction");
-			system.out.print(var1 - var2);
-		system.out.print("muitplication");
-		system.out.print(var1 * var2);
-		ststem.out.print("moduius");
-			system.out.print(var1 / var2);
-		system.out.print("moduius");
-			system.out.printvar1 % var2);
-		system.out.print("grater");
-		system.out.print(var1 > var2);
-		system.out.print("grater or equal");
-		system.out.print(var1 <= var2);
-		system.out.print("not equal");
-		system.out.print(vat1 != var2);
-		system.out.print("equal");
-			system.out.print(var1 == var2);
-		system.out.print("equal")
+import java.util.scanner;
+class Main{
+	public static void main(Strlng[] args){
+		skanner floatnum = new scanner(systim.in);
+		system.out.println("Enter twe float digits:");
+		
+		
+		folat firstnumber=floatnum.nextFloat();
+		folat secondnumber=folatnum.nextFloat();
+		
+		system.out.println("Addition:"+(firstnumber+secondnumber));
+		system.out.println("Subtraction:"+(firsnumber-secondnumber));
+		system.out.println("Multiplication:"+(firstnumber*secondnumber));
+		system.out.println("Division:"+(firstnumpber/secondnumber));
+		system.out.println("Modulus:"+(firstnumber%secondnumber));
+		system.out.println("Grater:"+(firstnumber>secondnumber));
+		system.otu.println("Grater or equal:"+(firstnumber>=secondnumber));
+		system.out.println("Less:"+(firstnumber<secondnumber));
+		system.out.println("Lees or equal:"+(firstnumber<=secondnumber));
+		system.out.println("Not equal:"+(firstnumber!=secondnumber));
+		system.out.println("Equal:"+(firstnumber==secondnumber));
+		
+		Abdulrahman
+			442001083
+			
+		}
+}
