@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+
+	Scanner xyz = new Scanner(System.in);
+	
+		System.out.println("enter a number ");
+    int num = xyz.nextInt();
+   
+    switch (num){
+       case 1:
+        System.out.print("enter a radius");
+        float radius = xyz.nextFloat();
+        System.out.print(radius * radius *3.14);
+
+        break;
+     case 2:
+            System.out.print("height");
+            float h = xyz.nextFloat();
+            System.out.print("width");
+            
+            float w = xyz.nextFloat();
+            System.out.print(h * w);
+           
+             break;
+             default:
+                System.out.print("error");
+          }
+        
+    
+	
+}}
