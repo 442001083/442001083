@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main
+{
+static int add(int x , int y ){
+    return  x-y;
+}
+
+static int sub(int x , int y){
+    return x+y;
+}
+
+
+	public static void main(String[] args) {
+	Scanner xyz = new Scanner(System.in);
+	System.out.println("what operation do you want to do ? /n1 for add /n2 - for subtract");
+	int operator = xyz.nextInt();
+	if (operator == 1){
+	   int scan = add (1,2);
+	    System.out.println(scan);
+	    
+	}else if (operator == 2){
+	    sub(1,2);
+	}
+	}
+}
