@@ -1,0 +1,21 @@
+public class Main
+{
+  static float add( float  x , float y , float w){
+  return x + y + w;}
+  
+  static float sub(float x , float y , float w){
+  return x - y - w;}
+  static float mult (float x , float y){
+      return x * y;}
+      static float vud(float x , float y){
+          return x/ y;}
+      
+          
+      
+  
+	public static void main(String[] args) {
+		
+		System.out.println(add(1 , 2 , 4));
+		System.out.println(sub(1,2,4));
+	}
+}
